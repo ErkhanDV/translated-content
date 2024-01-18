@@ -15,7 +15,7 @@ slug: Web/API/Document/cookie
 allCookies = document.cookie;
 ```
 
-In the code above _allCookies_ is a string containing a semicolon-separated list of all cookies (i.e. `key=value` pairs). Note that each _key_ and _value_ may be surrounded by whitespace (space and tab characters): in fact [RFC 6265](https://tools.ietf.org/html/rfc6265) mandates a single space after each semicolon, but some user agents may not abide by this.
+Здесь _allCookies_ - это строка, содержащая список всех cookies, разделенных точкой с запятой (пары key=value). Следует учитывать, что  _key_ и _value_ могут быть окружены пробелами (пробел, или символ табуляции) : фактически стандарт [RFC 6265](https://tools.ietf.org/html/rfc6265) рекомендует использовать одиночный пробел после каждой "точки с запятой", но некоторые пользовательские агенты могут игнорировать это правило.
 
 ### Запись новой cookie
 
